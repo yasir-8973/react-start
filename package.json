@@ -1,0 +1,73 @@
+{
+  "name": "moodboardui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-cli serve --mode=development --env development --progress --open --hot",
+    "build": "webpack --mode=production --env production --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClutchProject/moodboardUi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClutchProject/moodboardUi/issues"
+  },
+  "homepage": "https://github.com/ClutchProject/moodboardUi#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.7.2",
+    "autoprefixer": "^10.4.13",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "node-sass": "^8.0.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-loader": "^7.0.2",
+    "sass": "^1.58.3",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.2.7",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths-webpack-plugin": "^4.0.0",
+    "typescript": "^4.9.5",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/lab": "^5.0.0-alpha.123",
+    "@mui/material": "^5.11.11",
+    "@mui/styled-engine-sc": "^5.11.11",
+    "@projectstorm/geometry": "^7.0.0",
+    "@projectstorm/react-canvas-core": "^7.0.0",
+    "@projectstorm/react-diagrams": "^7.0.1",
+    "@projectstorm/react-diagrams-core": "^7.0.0",
+    "@projectstorm/react-diagrams-defaults": "^7.1.0",
+    "@projectstorm/react-diagrams-routing": "^7.1.0",
+    "add": "^2.0.6",
+    "draft-js": "^0.11.7",
+    "otp-input-react": "^0.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.8.2",
+    "reactflow": "^11.5.6",
+    "recoil": "^0.7.6",
+    "styled-components": "^5.3.8"
+  }
+}

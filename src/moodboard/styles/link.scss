@@ -1,0 +1,59 @@
+.LinkContainer{
+    width: 304px;
+    height: 75px;
+}
+.LinkEditor {
+    background: #fff;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 1rem;
+    width: 100%;
+    height: 100%;
+}
+.LinkStateDisplay{
+    // height: 1.6rem;
+    // min-height: 1.6rem;
+    min-width: 1.6rem;
+    width: 1.6rem;
+    text-align: center;
+}
+.LinkInput { 
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.LinkInput .link-form {
+    display: flex;
+    height: 100%;
+    flex: 1;
+    overflow: hidden;
+}
+.LinkInput .link-form .input-wrapper {
+    -ms-flex: 1;
+    flex: 1;
+}
+.LinkInput .link-form input:disabled {
+    background: #fff;
+    pointer-events: none;
+}
+.LinkInput .link-form input {
+    background: #fff;
+    border: 0;
+    cursor: default;
+    display: block;
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    height: auto;
+    line-height: 2rem;
+    margin: 0;
+    outline: 0;
+    padding: 1.1rem;
+    padding-left: 6px;
+    width: 100%;
+    color: #323b4a;
+    height: 100%;
+}

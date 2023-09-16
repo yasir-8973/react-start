@@ -1,0 +1,22 @@
+{
+    "project":[
+        {
+            "id":1,
+            "Name":"Project 1",
+            "Rooms": 5,
+            "Description": "Hi this is a Project with 5 Rooms"
+        },
+        {
+            "id":2,
+            "Name":"Project 2",
+            "Rooms": 4,
+            "Description": "Hi this is a Project with 4 Rooms"
+        },
+        {
+            "id":3,
+            "Name":"Project 3",
+            "Rooms": 1,
+            "Description": "Hi this is a Project with 1 Rooms"
+        }
+    ]
+}

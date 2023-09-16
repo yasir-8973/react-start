@@ -1,0 +1,109 @@
+.dndflow {
+    flex-direction: column;
+    display: flex;
+    flex-grow: 1;
+    height: 93vh;
+    background: #ebedee;
+  }
+  
+  .dndflow aside {
+    border-right: 1px solid #eee;
+    padding: 15px 10px;
+    font-size: 12px;
+    background: #fcfcfc;
+  }
+  
+  .dndflow aside .description {
+    margin-bottom: 10px;
+  }
+  
+  .dndflow .dndnode {
+    height: 20px;
+    padding: 4px;
+    border: 1px solid #1a192b;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+  }
+  
+  .dndflow .dndnode.input {
+    border-color: #0041d0;
+  }
+  
+  .dndflow .dndnode.output {
+    border-color: #ff0072;
+  }
+  
+  .dndflow .reactflow-wrapper {
+    flex-grow: 1;
+    height: 100%;
+  }
+  
+  .dndflow .selectall {
+    margin-top: 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .dndflow {
+      flex-direction: row;
+    }
+  
+    .dndflow aside {
+      width: 10%;
+      max-width: 250px;
+    }
+  }
+  
+
+  
+.react-flow__panel.react-flow__attribution{
+  display: none !important;
+}
+  /* Textarea */
+.editable-textarea {
+  scrollbar-width: thin;
+  outline: none;
+  width: 100%;
+  min-height: 50px;
+  max-height: 200px;
+  border-radius: 5px;
+  padding: 15px 0 0 15px; 
+  border: 0px;
+  resize: none;  
+  background: #fff;
+  box-sizing: border-box;
+}
+.link-editor{
+  outline: none;
+  width: 100%;
+  min-height: 50px;
+  border-radius: 5px;
+  border: 0px;
+  resize: none;  
+  background: transparent;
+  box-sizing: border-box;
+}
+// .text-updater-node{
+
+//   font-size: 10px;
+//   width: 180px;
+//   background: #f5f5f6;
+//   color: #222;
+//   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 15%), 0 2px 4px -1px rgb(0 0 0 / 8%);
+//   border-radius: 2px;
+//   // &:hover,
+//   // &:focus {
+//   //   border: 1px solid black;
+//   // }
+// }
+.react-flow__handle.connectable{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #778899;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}

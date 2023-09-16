@@ -1,0 +1,111 @@
+.editor-header{
+    appearance: none;
+    background: transparent;
+    box-sizing: border-box;
+    font-variant-ligatures: none;
+    left: 0;
+    margin: 0;
+    outline: 0 none;
+    text-overflow: ellipsis;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    height: 40px;
+    padding: 9px 15px;
+}
+.editor-header-small{
+    appearance: none;
+    background: transparent;
+    box-sizing: border-box;
+    font-variant-ligatures: none;
+    left: 0;
+    margin: 0;
+    outline: 0 none;
+    text-overflow: ellipsis;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    height: 30px;
+    padding: 9px 15px;
+}
+.editorClassName{
+    height: 90% !important;
+    max-height: 60vh;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.document-modal > .MuiDialog-container > .MuiPaper-root{
+    height: 100% !important;
+    max-width: 80%;
+}
+.document-container{
+    height: 7.2rem;
+    width: 7.2rem;
+    align-items: center;
+    display: grid;
+    svg{
+        width: 56px;
+        height: 56px;
+        color: black;
+        background: #fff;
+        place-self: center;
+    }
+    .details-container{
+        place-self: center;
+    }
+}
+.details-container{
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 18rem;
+}
+.EditableTitle{    
+    margin-bottom: 3px;
+    padding: 3px 3px 2px;
+    color: #323b4a;
+    font-family: Inter,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+    line-height: 2rem;
+    user-select: text;
+    outline: none;
+    word-break: break-word;
+    white-space: pre-wrap;        
+    .doc-textarea {        
+        font-family: inherit;
+        font-size: inherit;
+        padding: 1px 6px;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        resize: none;
+        min-height: 20px;
+        height: auto;
+        line-height: 20px;
+        max-width: 180px;
+        padding: 0.8rem;
+        border: none;
+        outline: none;
+    }
+    .doc-textarea:focus{
+        background: #fff;
+        border: none;
+        outline: none;
+    }
+}
+.details-container .secondary-details-container {
+    color: #666d7a;    
+    display: flex;
+    font-size: 0.8rem;
+}

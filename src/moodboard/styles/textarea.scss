@@ -1,0 +1,42 @@
+.details-container{
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 18rem;
+}
+.EditableTitle{    
+    margin-bottom: 3px;
+    padding: 3px 3px 2px;
+    color: #323b4a;
+    font-family: Inter,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.02rem;
+    line-height: 2rem;
+    user-select: text;
+    outline: none;
+    word-break: break-word;
+    white-space: pre-wrap;        
+    .notes-textarea {        
+        font-family: inherit;
+        font-size: inherit;
+        padding: 1px 6px;
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        resize: both;
+        height: auto;
+        line-height: 20px;
+        padding: 0.8rem;
+        border: none;
+        outline: none;
+    }
+    .notes-textarea:focus{
+        background: #fff;
+        border: none;
+        outline: none;
+    }
+}
